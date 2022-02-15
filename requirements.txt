@@ -3,3 +3,4 @@ gym
 gym[atari,accept-rom-license]
 keras-rl2
 jupyter
+matplotlib
