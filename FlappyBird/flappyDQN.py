@@ -88,7 +88,8 @@ class DQNAgent:
 
             done = False
             score = 0
-            self.epsilon = self.epsilon * self.epsilon_decay if self.epsilon * self.epsilon_decay > self.epsilon_min else self.epsilon_min
+            self.epsilon = self.epsilon * self.epsilon_decay if self.epsilon * self.epsilon_decay > self.epsilon_min \
+                else self.epsilon_min
 
             while not done:
                 self.env.render()
@@ -139,4 +140,8 @@ class DQNAgent:
 
 
 if __name__ == '__main__':
-    agent = DQNAgent()
+    agent = DQNAgent()  # create agent
+
+    agent.train()  # train agent
+
+    agent.perform()  # visualize agent
