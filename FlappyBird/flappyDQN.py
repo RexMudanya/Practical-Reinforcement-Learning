@@ -94,7 +94,7 @@ class DQNAgent:
             while not done:
                 self.env.render()
                 action = self.act(state)
-                next_state, reward, done, info = self.env.env(action)
+                next_state, reward, done, info = self.env.step(action)
 
                 # reshape next state
                 next_state = np.reshape(next_state, [1, self.state_space])
