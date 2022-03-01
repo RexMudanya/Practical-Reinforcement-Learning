@@ -5,3 +5,4 @@ keras-rl2
 jupyter
 matplotlib
 flappy-bird-gym
+gym-super-mario-bros
