@@ -4,3 +4,8 @@ gym[atari,accept-rom-license]
 keras-rl2
 jupyter
 matplotlib
+gym_anytrading
+stable_baselines3
+ta
+yfinance
+pandas_datareader
