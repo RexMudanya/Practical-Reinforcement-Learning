@@ -9,3 +9,4 @@ stable_baselines3
 ta
 yfinance
 pandas_datareader
+highway-env
